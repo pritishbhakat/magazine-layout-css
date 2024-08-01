@@ -1,0 +1,1 @@
+##link - https://www.flipsnack.com/flipsnacktemplates/travel-themed-newspaper-article-template/full-view.html

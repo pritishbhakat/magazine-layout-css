@@ -1,0 +1,149 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Arial, Helvetica, sans-serif
+}
+
+body {
+    margin: 4rem 15%;
+}
+
+p {
+    padding: 10px 0px;
+    line-height: 2.0; 
+}
+
+
+.main{
+    display: flex;
+    flex-direction: row;
+}
+
+.aside{
+    flex: 1;
+}
+
+
+.aside-heading{
+    margin-bottom: 32px;
+    padding: 5px 0px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    background-color: #DEAC80;
+    width: 60%;
+}
+
+.aside-sub-heading{
+    padding-bottom: 1rem;
+    width: 60%;
+    font-size: 3rem;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    line-height: 1.6;
+}
+
+.aside-image{
+    padding-top: 2rem;
+    width: 100%;
+    height: 60%;
+    object-fit:fill;
+}
+
+.hero{
+    padding-left: 10%;
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.hero-main{
+    flex:1
+}
+
+.hero-main-image{
+    width: 100%;
+}
+
+.hero-main-content{
+    flex:3
+}
+
+.hero-content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.hero-content-left{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-right: 20px;
+    text-wrap: pretty;
+}
+
+.hero-content-right{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-left: 20px;
+    text-wrap:pretty;
+}
+
+#hero-content-quote{
+    padding: 14px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    text-align: center;
+    line-height: 2;
+    text-wrap: pretty;
+}
+
+
+
+.main-footer{
+    padding: 2rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.button{
+    display: inline-block;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #ffffff;
+    background-color: #DEAC80;
+    text-decoration: none;
+    border-radius: 25px;
+}
+
+.button:hover {
+    background-color: #c4996e;
+}
+
+
+@media only screen and (max-width:768px){
+    body {
+        margin: 2rem 5%;
+    }
+
+    .main{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .aside-sub-heading{
+        line-height: 1.6;
+    }
+
+    .hero{
+        flex-direction: column-reverse;
+        padding-left: 0px;
+    }
+
+}
